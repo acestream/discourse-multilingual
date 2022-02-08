@@ -68,7 +68,7 @@ function replaceState(path) {
 
 function addParam(paramName, value, opts = {}) {
   if (opts.add_cookie) {
-    cookie(`discourse_${paramName}`, value);
+    cookie(`discourse_${paramName}`, value, { path: '/' });
   }
 
   if (useDiscoveryController(opts.ctx, paramName)) {

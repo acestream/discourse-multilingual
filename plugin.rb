@@ -2,8 +2,8 @@
 # name: discourse-multilingual
 # about: Features to support multilingual forums
 # version: 0.1.0
-# url: https://github.com/paviliondev/discourse-multilingual
-# authors: Angus McLeod
+# url: https://github.com/acestream/discourse-multilingual
+# authors: Angus McLeod, Anton Pishel
 
 enabled_site_setting :multilingual_enabled
 
